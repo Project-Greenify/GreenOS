@@ -8,3 +8,6 @@ bytes, and to add to the lightweigt
 feeling: there is NO implementations
 of C or any other system language!
 Just assembly!
+# Build
+You can compile the assembly file
+into a disk image by using: ``make run_img``!
