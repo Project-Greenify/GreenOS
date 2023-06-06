@@ -1,7 +1,8 @@
+[org 0x7c00]
 mov ah, 00h
 mov al, 13h
 int 0x10
-; this sets the os to graphics mode
+// this sets the os to graphics mode
 mov ah, 0Eh
 mov al, 'H'
 mov bh, 1
