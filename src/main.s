@@ -17,7 +17,7 @@ mov cx, 0
 mov dx, 0
 .loop:
     inc cx
-    cmp cx, 5
+    cmp cx, 20
     je .nl
     int 0x10
     jmp .loop
